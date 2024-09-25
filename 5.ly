@@ -29,7 +29,6 @@ vla_cinco = \relative c'' {
     c8 a16. g32 g8 f 
     d'8-! c32( bes a g) f8-! a32( g f e)
     e4 f8 r 
-
 }
 
 vlb_cinco = \relative c'' { 
