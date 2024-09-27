@@ -7,3 +7,11 @@ This edition presents one of them, a «Serenade, ex C» for string trio (two vio
 This edition of the work is naturally based on this single copy. It is a critical--practical edition in the sense that, although all readings other than the manuscript are indicated graphically (using square brackets and dashed lines for the slurs), the aim is to ensure that these do not distract performers when performing the piece. We do not include an appendix detailing the readings adopted: the curious reader can simply consult the manuscript (available at http://digital.slub-dresden.de/id454516029) and draw his or her own conclusions. We also sought to respect some idiosyncrasies of the writing: the occasional «voice» writing in the string parts and the lack of markings of tuplets. Others, on the other hand, were not taken into account: the «kneed beams», the number of bars per system, and some stem directions. We believe that some of these particularities of the notation possess illocutionary force and convey intentions to performers. 
 
 Any corrections or changes can be made using that source code and recompiled to obtain the print version; also, if desired, those changes can be suggested for inclusion in the edition via a pull request. The music typography work was done by Luca Mariano and Federico Sarudiansky (fsarud at gmail dot com), who was also in charge of the final edition. 
+
+Requirements:
+- LuaLaTex, as in TexLive version from 2024
+- Lilypond 2.25.16
+- Linux Biolinum O font.
+
+
+
