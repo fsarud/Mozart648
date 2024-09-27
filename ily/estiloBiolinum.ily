@@ -28,7 +28,7 @@
       \override RehearsalMark.stencil = #(lambda (grob) (grob-interpret-markup grob (markup #:oldStyleNum (ly:grob-property grob 'text)))) 
       \override MetronomeMark.stencil = #(lambda (grob) (grob-interpret-markup grob (markup #:oldStyleNum (ly:grob-property grob 'text)))) 
       \override TupletNumber.font-shape = #'()	
-      \override BarNumber.Y-offset=#3 
+      \override BarNumber.Y-offset=#4 
       \override Hairpin.minimum-length = #2 % tamaño mínimo para hairpins
       \override MeasureCounter.font-name = "Linux Biolinum O"
       \override MultiMeasureRestNumber.font-name = "Linux Biolinum O"

@@ -31,12 +31,12 @@ vla_siete = \relative c''' {
 
 }
 
-vlb_siete = \relative c'' { 
+vlb_siete = \relative c' { 
     r8 
     e4 g8 f16 e 
     d8 d' d4 
     e8 e fis fis 
-    g g, <d, d'>4 
+    g g, <d d'>4 
     g,16 d' b' d, g, d' b' d, 
     g, e' c' e, g, e' c' e,  
     a8 a16 f d8 d 
@@ -74,7 +74,7 @@ bc_siete = \relative c' {
 }
 
 
-%%{
+%{
 
 \score { 
     \new StaffGroup { 

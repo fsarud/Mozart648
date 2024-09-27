@@ -20,8 +20,8 @@ vla_uno = \relative c {
     b8 <b g'> <g, d' b' g'>4
 
     e''8. \p d32 c b8 b 
-    <<{c2:16\fz}\\{g:16}>>
-    g'8. \p f32 e d8 d 
+    <<{c2:16\fz}\\{a:16}>>
+    g'8. \p \bracketAcc fis?32 e d8 d 
     <<{d2:16\fz}\\{\voiceThree d,:16}>>
     d'8 \tupletOff \tuplet 3/2 { e16 d c } b8 a
     <g, g'>8 b16. c32 d16. c32 d16. e32 
@@ -45,7 +45,7 @@ vla_uno = \relative c {
     e8 d <d, b' g'>4
     \bracketDot a''8. \p g32 f e8 e 
     <<{d2:16}\\{f,:16}>>
-    c'8. b32 a g8 f 
+    c'8. b32 a g8 \bracketify g 
     <<{g2:16}\\{ \stemUp \correte #1  g,:16}>>
 
     <g g'>8 \grace g''8 \tuplet 3/2 { f16 e d  } c8 b 
@@ -64,7 +64,7 @@ vlb_uno = \relative c {
     c8. b16 a8 a 
     g <b g'> q\noBeam r  
 
-    g'8.\p f32 e d8 d 
+    g'8.\p \bracketAcc fis?32 e d8 d 
     <<{d2:16\fz}\\{\voiceThree d,:16}>>
     b'8.\p d32 c b8 b 
     <<{d2:16\fz}\\{a2:16}>>
@@ -92,7 +92,7 @@ vlb_uno = \relative c {
     \leftBracket e'8. g32 f32 \rightBracket  e8 e 
     <<{f2:16}\\{g,:16}>> 
     e'8 \tuplet 3/2 { a16 g f  } e8 d 
-    e4 r8 a' 
+    e4 r8 \bracketify c'' 
     b r r b, 
     c r16 e,16 <g, e'>8 q 
     q4 r
@@ -143,7 +143,7 @@ bc_uno = \relative c {
 }
 
 
-%%{
+%{
 
 \score { 
     \new StaffGroup { 

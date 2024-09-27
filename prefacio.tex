@@ -1,0 +1,18 @@
+En septiembre de 2024 la Internationale Stiftung Mozarteum de Salzburgo, junto al musicólogo Neal Zaslaw presentaron la novena edición del catálogo de obras de Mozart, originalmente publicado por Ludwig von Köchel en 1862. En esta edición del catálogo llega hasta el número 721, traspasando por primera vez el fatídico «626» y abandonando así el criterio cronológico que se buscaba en las ediciones anteriores. En su mayor parte, estos nuevos «números Koechel» son piezas que antes figuraban dentro de los muchos anexos del catálogo, pero algunas son obras recientemente atribuidas al compositor. 
+
+Esta edición presenta una de ellas, una «Serenata, ex C» para trío de cuerdas (dos violines, \emph{primo} y \emph{secondo}, más un bajo ---indicado como \emph{violoncello} en la \emph{particella} y como \emph{basso} en la carátula) al que le fue asignado el número K. 648. Se trata de una obra inusual, datada presumiblemente en los años finales de la década de 1760. Una copia de las \emph{particelle} de esta obra está incluida en la colección del compositor alemán Carl Ferdinand Becker (1804—1877) y fue digitalizada por la Leipziger Städtischen Bibliotheken en 2018. En septiembre de 2024, junto con la publicación de la nueva edición del catálogo, también se volvió a ejecutar la pieza, presumiblemente por primera vez desde que fue escrita. 
+
+Esta edición de la obra se basa, naturalmente, en esta única copia. Se trata de una edición crítico—práctica en el sentido que, si bien se indican gráficamente todas las lecturas distintas al manuscrito (utilizando corchetes rectos y líneas punteadas para las ligaduras), se busca que estas no distraigan a los intérpretes a la hora de ejecutar la pieza. No incluimos un anexo detallando las lecturas adoptadas: el lector curioso simplemente puede consultar el manuscrito (disponible en \href{http://digital.slub-dresden.de/id454516029}{http://digital.slub-dresden.de/id454516029}) y extraer sus propias conclusiones. También buscamos respetar algunas idiosincrasias de la escritura: la ocasional escritura a voces en las partes de cuerdas y la falta de marcas de tresillos. Otras, en cambio, no fueron tenidas en cuenta: las «barras al medio» en los grupos de corcheas (por ejemplo, reemplazamos
+    \begin{lilypond}[insert=inline,voffset=-1.5em]
+        \relative c'{ \omit Score.Clef  \omit Score.TimeSignature \stemUp \tweak Beam.positions #'(-1 . -1) c8 \stemDown c' \stemUp c, \stemDown c'}
+    \end{lilypond} 
+    con 
+    \begin{lilypond}[insert=inline, voffset=-1em]
+        \relative c'{ \omit Score.Clef  \omit Score.TimeSignature c8 c'  c,  c'}
+    \end{lilypond}
+), la cantidad de compases por sistema, y algunas direcciones de plicas. Creemos que algunas de estas particularidades de la notación poseen fuerza ilocucionaria y transmiten intenciones a los intérpretes. 
+
+Esta edición se presenta como una edición abierta: fue realizada íntegramente utilizando Lilypond y Lua\LaTeX\ y su código fuente se encuentra disponible en un repositorio abierto en GitHub (\href{https://github.com/fsarud/mozart648}{https://github.com/fsarud/mozart648}). Cualquier corrección o cambio puede hacerse utilizando ese código fuente y recompilarse para obtener la versión para imprimir; también, si se desea, se pueden sugerir esos cambios para su inclusión en la edición mediante un \emph{pull request}. El trabajo de tipografía musical fue realizado por Luca Mariano y Federico Sarudiansky (fsarud at gmail dot com), quien también tuvo a cargo la edición final. 
+
+Buenos Aires, septiembre de 2024.
+

@@ -38,7 +38,7 @@ vlb_cinco = \relative c'' {
     f [ c c ] c[ c c ]} bes8 a 
     \tuplet 3/2 8 { a16[ a a] a[ a a] a[ a a ] a[ a a ]
     g [ g g] g[ g g ] g[ g g ] g[ g g] 
-    c, [ a' a ] a[ a a ]} \leftBracket e16. \slurDashed a32( g f e d) \rightBracket \slurSolid
+    c, [ a' a ] a[ a a ]} \leftBracket e8 \slurDashed \grace a16 g32( f e d) \rightBracket \slurSolid
     d4 e8 r  
 
     \tuplet 3/2 8 { c'16[ c c ] c[ c c ] c[ c c] c[ c c ]

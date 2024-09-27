@@ -4,7 +4,7 @@
 glob_tres = { 
     \time 3/4 \sectionLabel "Menuet"
     \repeat volta 2 { s2. * 8 }
-    \repeat volta 2 { s2. * 8 \twoWayFermata }
+    \repeat volta 2 { s2. * 8 \twoWayFermata \break }
     \section \sectionLabel "Trio" \key f \major
     \repeat volta 2 { s2. * 8 }
     \repeat volta 2 { s2. * 7 s2. \twoWayFermata \jump "M. da capo" }
@@ -71,7 +71,7 @@ vlb_tres = \relative c'' {
     \slurDashed d8( c) c( bes) bes( a) 
     a( g) g( f) f( e) 
     e4. f8 g4 
-    f8 g a4 r  
+    f8( g) a4 r  
     d8( c) c( bes) bes( a) 
     a( g) g( f) f( a) 
     a g f4 e 
@@ -81,7 +81,7 @@ vlb_tres = \relative c'' {
     a c bes a g f 
     \tupletOff \tuplet 3/2 { c d c  } c4 c 
     c c' r 
-    e,8 f f g g e 
+    e,8 f f g g \bracketify f 
     c a' a bes c4 
     r8 d, c bes a g 
     a2 r4  
